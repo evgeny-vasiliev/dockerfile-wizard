@@ -54,7 +54,7 @@ jobs:
 
   test_image:
     docker:
-      - image: $DOCKER_USERNAME/(name of image):(image tag)
+      - image: $DOCKER_USERNAME/sweepbuild:first
         environment:
           <<: *image_config
 
